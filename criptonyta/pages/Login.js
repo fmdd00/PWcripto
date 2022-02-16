@@ -12,10 +12,7 @@ export default function Login() {
                 <div className="col-2"><Cuenta /></div>
                 <div className="col-5"><Icono /></div>
                 <div className="col-5"><LoginPrincipal /></div>
-
             </div>
-
-
         </div>
     </div>
 
