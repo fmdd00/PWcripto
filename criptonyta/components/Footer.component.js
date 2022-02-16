@@ -3,9 +3,6 @@ const Footer = () => {
         <div className="card-body">
             <div class="row row-cols-auto">
                 <div className="col">
-                    <a> HOlaaaaaaa</a>
-                </div>
-                <div className="col">
                     <a href="#">Nosotros</a>
                 </div>
                 <div>
@@ -16,9 +13,6 @@ const Footer = () => {
                 </div>
                 <div>
                     <a href="#">2022</a>
-                </div>
-                <div>
-                    <button href="#">2022</button>
                 </div>
             </div>
         </div>
