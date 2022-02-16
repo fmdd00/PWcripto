@@ -17,6 +17,9 @@ const Footer = () => {
                 <div>
                     <a href="#">2022</a>
                 </div>
+                <div>
+                    <button href="#">2022</button>
+                </div>
             </div>
         </div>
     </div>
