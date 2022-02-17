@@ -6,7 +6,7 @@ const Footer = () => {
                     <a href="/Nosotros">Nosotros</a>
                 </div>
                 <div>
-                    <a href="#">Términos y condiciones</a>
+                    <a href="/TerminosCondiciones">Términos y condiciones</a>
                 </div>
                 <div>
                     <a href="#">Grupo 5</a>
