@@ -11,7 +11,7 @@ export default function Login() {
 
     const loginHandler = (username, password) => {
         if (username == "user1" && password == "user1pass") {
-            location.href = "#"
+            location.href = "/main"
         } else {
             console.log("Error en login")
             setErrorLogin(true)
