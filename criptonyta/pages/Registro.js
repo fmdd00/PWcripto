@@ -7,7 +7,7 @@ import RegistroPrincipal from "../components/RegistroPrincipal.component"
 export default function Registro() {
     return <div >
         <div >
-            <h1>Crypto-Nyta</h1>
+            <h1>Crypto-Nita</h1>
             <Encabezado />
 
             <div className="row mt-4">
@@ -19,7 +19,10 @@ export default function Registro() {
             <Footer2 />
         </div>
         <div className="mt-4">
-            <p className="text-center fs-6 fw-light">Sitio protegido por reCAPTCHA, aplican las <a className="link-primary" href="https://policies.google.com/privacy">Politicas de Privacidad</a> y <a className="link-primary" href="https://policies.google.com/terms">Terminos de Servicio</a> de Google.</p>
+            <p className="text-center fs-6 fw-light">
+                Sitio protegido por reCAPTCHA, aplican las <a className="link-primary" href="https://policies.google.com/privacy">Políticas
+                de Privacidad</a> y <a className="link-primary" href="https://policies.google.com/terms">Términos de Servicio</a> de Google.
+            </p>
         </div>
     </div>
 }
