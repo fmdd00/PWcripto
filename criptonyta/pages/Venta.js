@@ -5,6 +5,7 @@ import CuerpoVenta from "../components/CuerpoVenta.Components";
 export default function Venta() {
     return <div >
         <VentaCabecera/>
+        <h2 className="venta">Venta</h2>
         <CuerpoVenta/>
 
 
