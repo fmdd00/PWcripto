@@ -1,13 +1,13 @@
 const Encabezado=()=>{
     return <ul class="nav nav-tabs nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link " href="/Nosotros">Conocenos</a>
+    <li className="nav-item">
+      <a className="nav-link " href="/Nosotros">Conocenos</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Opciones</a>
+    <li className="nav-item">
+      <a className="nav-link" href="#">Opciones</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link active"  aria-current="page" href="#">Cuenta</a>
+    <li className="nav-item">
+      <a className="nav-link active"  aria-current="page" href="#">Cuenta</a>
     </li>
    
   </ul>

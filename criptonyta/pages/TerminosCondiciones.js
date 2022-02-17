@@ -1,6 +1,6 @@
 import Regresar from "../components/Regresar.Components"
-export default function TerminosCondiciones() {
 
+export default function TerminosCondiciones() {
     return <div className="" >
 
         <div className="row mt-4">
