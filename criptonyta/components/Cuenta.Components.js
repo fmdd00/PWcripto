@@ -6,7 +6,7 @@ const Cuenta = () => {
             <a href="/Login" class="list-group-item list-group-item-action active" aria-current="true">
             Iniciar Sesión
             </a>
-            <a href="/Registro" class="list-group-item list-group-item-action">Registrarse</a>
+            <a href="/Registro" class="list-group-item list-group-item-action">Abrir Cuenta</a>
       
             
         </div>
