@@ -1,10 +1,10 @@
-const Footer3=()=>{
+const Footer4=()=>{
     return <div>
 
 
 <div className="card mt-4">
 <div className="progress Footer3y4 ">
-  <div className="progress-bar progress-bar1" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  <div className="progress-bar progress-bar2" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
                 <div className="card-body bg-dark text-center text-white">
@@ -21,4 +21,4 @@ const Footer3=()=>{
     </div>
 }
 
-export default Footer3
+export default Footer4

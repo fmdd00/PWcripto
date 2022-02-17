@@ -67,6 +67,13 @@ align-items: center;
 .Footer3y4{
   position:absolute;
   bottom: 0;
-  width:80%;
+  width:100%;
 
+}
+.progress-bar2{
+  width: 100%;
+}
+
+.venta{
+  text-align: center;
 }
