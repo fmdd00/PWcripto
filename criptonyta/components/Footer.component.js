@@ -1,5 +1,5 @@
 const Footer = () => {
-    return <div className="card mt-8">
+    return <div className="card mt-16 Footer">
         <div className="card-body">
             <div className="row row-cols-auto">
                 <div className="col">
