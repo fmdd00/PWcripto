@@ -28,6 +28,9 @@ export default function Login() {
                 <div className="col-5"><LoginPrincipal onLogin={ loginHandler } error={ errorLogin } /></div>
             </div>
         </div>
+        <div className="mt-4">
+            <p className="text-center fs-6 fw-light">Sitio protegido por reCAPTCHA, aplican las <a className="link-primary" href="https://policies.google.com/privacy">Politicas de Privacidad</a> y <a className="link-primary" href="https://policies.google.com/terms">Terminos de Servicio</a> de Google.</p>
+        </div>
     </div>
 
 }

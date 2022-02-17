@@ -22,21 +22,28 @@ const LoginPrincipal = (props) => {
     return <aside >
         <div className="card">
             <div className="card-body">
-                <h3>Login</h3>
+                <h3>Iniciar Sesión</h3>
                 <form>
                     <div>
-                        <label htmlFor="txt_username" className="form-label">Username</label>
-                        <input  id="txt_username" type="text" className="form-control"
-                                defaultValue={txtUsername} onChange={txtUsernameOnChange} />
+                        
+                        <input id="txt_username" type="text" className="form-control" placeholder="Usuario"
+                            defaultValue={txtUsername} onChange={txtUsernameOnChange} />
                     </div>
-                    <div className="mb-2">
-                        <label htmlFor="txt_password" className="form-label">Password</label>
-                        <input  id="txt_password" type="password" className="form-control"
-                                defaultValue={txtPassword} onChange={txtPasswordOnChange} />
+                    <div className="mt-2">
+                        
+                        <input id="txt_password" type="password" className="form-control" placeholder="Contraseña"
+                            defaultValue={txtPassword} onChange={txtPasswordOnChange} />
                     </div>
-                    <button id="butLogin" className="btn btn-primary" type="button"
-                            onClick={butLoginOnClick} >Login</button>
-                    <a href="#"> Registro</a>
+                    <div className="d-grid gap-2 mt-2">
+                        <button id="butLogin" className="btn btn-primary" type="button"
+                            onClick={butLoginOnClick} >Ingresar</button>
+                    </div>
+                    <div className="mt-2">
+                        <a href="#">Quiero registrarme</a>
+                    </div>
+                    <div className="mt-2">
+                        <a href="#">Olvidé mi contraseña</a>
+                    </div>
                 </form>
 
                 {
@@ -46,9 +53,8 @@ const LoginPrincipal = (props) => {
                         }
                     })()
                 }
-
             </div>
-        </div>
+        </div>   
     </aside>
 }
 
