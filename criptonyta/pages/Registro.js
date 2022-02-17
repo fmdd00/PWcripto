@@ -7,7 +7,7 @@ import RegistroPrincipal from "../components/RegistroPrincipal.component"
 export default function Registro() {
     return <div >
         <div >
-            <h1>Crypto-Nyta</h1>
+            <h1>Crypto-Nita</h1>
             <Encabezado />
 
             <div className="row mt-4">
