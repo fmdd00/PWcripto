@@ -4,16 +4,18 @@ const LoginPrincipal=()=>{
         <div className="card-body">
             <h3>Inicio de Sesión</h3>
             <form>
-                <div>
-                    <label htmlFor="txt_username" className="form-label">Correo Electrónico</label>
+                <div className="mt-2">
                     <input id="txt_username" type="text" className="form-control" placeholder="Dirección de correo..." />
                 </div>
-                <div className="mb-2">
-                    <label htmlFor="txt_password" className="form-label">Contraseña</label>
+                <div className="mt-2">
                     <input id="txt_password" type="password" className="form-control" placeholder="Contraseña..." />
                 </div>
-                <button id="butLogin" className="btn btn-primary me-4" type="button">Ingresar</button>
-                <a href="#"> Olvidé mi contraseña</a>
+                <div className="d-grid gap-2 mt-2">
+                    <button id="butLogin" className="btn btn-primary" type="button">Ingresar</button>
+                </div>
+                <div className="mt-2 text-center">
+                    <a href="#"> Olvidé mi contraseña</a>
+                </div>
             </form>
                   
         </div>
