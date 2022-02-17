@@ -51,3 +51,11 @@ a {
 align-items: center;
 
 }
+
+.IconoUser{
+  height: auto; 
+    width: auto; 
+  
+    object-fit: scale-down;
+
+}
