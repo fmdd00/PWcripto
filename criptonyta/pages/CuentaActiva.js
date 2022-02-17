@@ -4,7 +4,7 @@ import Opciones from "../components/Opciones.Components"
 import Footer2 from "../components/Footer2.Components"
 export default function CuentaActiva() {
     return <div>
-        <h1>Crypto-Nita</h1>
+        
             <Activa/>
             <EncabezadoOpciones />
             <div className="row mt-4">
