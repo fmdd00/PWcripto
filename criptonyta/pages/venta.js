@@ -5,7 +5,7 @@ import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 export default function MainPage() {
     return <div>
         
-        <Activa2/>
+        <div ><Activa2/></div>
         <h2>Transacción -- Vender</h2>
         <div class="row">
 
