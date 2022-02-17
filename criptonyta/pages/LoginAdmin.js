@@ -5,9 +5,9 @@ import LoginAdministrador from "../components/LoginAdministrador.Component"
 const LoginAdmin = () =>{
     return <div >
         <div >
-            <h1>Crypto-Nita</h1>
+            <h1>Crpto-Nyta</h1>
             <div>
-
+                IMAGEN
             </div>
             <div className="row mt-4">
                 <div className="col">
