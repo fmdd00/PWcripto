@@ -1,7 +1,7 @@
 const Encabezado=()=>{
     return <ul class="nav nav-tabs nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link " href="#">Conocenos</a>
+      <a class="nav-link " href="/Nosotros">Conocenos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Opciones</a>

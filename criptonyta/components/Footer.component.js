@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="card-body">
             <div class="row row-cols-auto">
                 <div className="col">
-                    <a href="#">Nosotros</a>
+                    <a href="/Nosotros">Nosotros</a>
                 </div>
                 <div>
                     <a href="#">Términos y condiciones</a>
