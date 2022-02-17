@@ -1,5 +1,8 @@
+import Encabezado from "../components/Encabezado.Components"
+
 export default function MainPage() {
     return <div>
-        <h1>Lorem</h1>
+        <h1>Crypto-Nyta</h1>
+        <Encabezado />
     </div>
 }
