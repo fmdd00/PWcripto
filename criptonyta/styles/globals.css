@@ -59,3 +59,14 @@ align-items: center;
     object-fit: scale-down;
 
 }
+
+.progress-bar1{
+  width: 50%;
+}
+
+.Footer3y4{
+  position:absolute;
+  bottom: 0;
+  width:80%;
+
+}
