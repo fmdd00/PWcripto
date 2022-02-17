@@ -1,6 +1,6 @@
 const Banner = (props) => {
     return <div>
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide mt-4" data-bs-ride="carousel">
             <div className="carousel-inner">
                 
                 <div class="carousel-item active">

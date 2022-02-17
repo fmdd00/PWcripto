@@ -1,5 +1,5 @@
 const Encabezado=()=>{
-    return <ul class="nav nav-tabs">
+    return <ul class="nav nav-tabs nav justify-content-end">
     <li class="nav-item">
       <a class="nav-link " href="#">Conocenos</a>
     </li>
