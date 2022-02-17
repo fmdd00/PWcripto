@@ -26,14 +26,14 @@ export default function Login() {
             <div className="row mt-4">
                 <div className="col-2"><Cuenta /></div>
                 <div className="col-6"><Icono /></div>
-                <div className="col-4"><LoginPrincipal /></div>
+                <div className="col-4"><LoginPrincipal onLogin={ loginHandler } error={ errorLogin } /></div>
             </div>
 
             <Footer2/>
 
 
-                <div className="col-5"><Icono /></div>
-                <div className="col-5"><LoginPrincipal onLogin={ loginHandler } error={ errorLogin } /></div>
+                
+                
             
         </div>
         <div className="mt-4">
