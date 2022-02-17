@@ -22,9 +22,9 @@ export default function formatoRegistroPaso2() {
                         <span class="input-group-text" id="cod_pe">+ 51</span>
                         <input id="txt_username" type="number" className="form-control" placeholder="Número telefónico" />
                     </div>
-                    <div class="form-check mt-4">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                            <label class="form-check-label" for="flexCheckDefault">
+                    <div className="form-check mt-4">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                            <label className="form-check-label" for="flexCheckDefault">
                                 <p> Acepto los <a className="link-primary" href="#">Términos y Condiciones</a> de Crypto-Nita 
                                     y la <a className="link-primary" href="#">Política de privacidad</a> y autorizo el tratamiento 
                                     de mis datos personales de conformidad con la Política de Privacidad.</p>
