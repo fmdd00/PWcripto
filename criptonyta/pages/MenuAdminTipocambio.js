@@ -13,7 +13,7 @@ const MenuAdminTipoCambio = () => {
                 <div className="card">
                     <div className="card-body mx-auto">
                         <h3>Tipo de cambio</h3>
-                        <input className="form mt-2" value="3.75"></input>
+                        <input className="form mt-2" defaultValue="3.75"></input>
                         <div className="mt-2">
                             <a className="btn btn-primary container-fluid"> CAMBIAR </a>
                         </div>
