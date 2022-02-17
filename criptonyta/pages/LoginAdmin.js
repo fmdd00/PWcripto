@@ -5,7 +5,7 @@ import LoginAdministrador from "../components/LoginAdministrador.Component"
 const LoginAdmin = () =>{
     return <div >
         <div >
-            <h1>Crpto-Nyta</h1>
+            <h1>Crypto-Nita</h1>
             <div>
                 IMAGEN
             </div>

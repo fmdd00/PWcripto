@@ -2,7 +2,7 @@ import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
 import NavegacionAdmin from "../components/NavAdmin.Component"
 
-const MenuAdmin = () => {
+const MenuAdminTipoCambio = () => {
     return <div className="container">
         <LogoAdministrador />
         <NavegacionAdmin />
@@ -27,4 +27,4 @@ const MenuAdmin = () => {
     </div>
 }
 
-export default MenuAdmin
+export default MenuAdminTipoCambio
