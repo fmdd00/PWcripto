@@ -1,14 +1,9 @@
 import { useState } from "react"
-import ReCAPTCHA from "react-google-recaptcha"
 
-const LoginPrincipal = (props) => {
+const LoginAdministrador = (props) => {
 
     const [txtUsername, setTxtUsername] = useState("")
     const [txtPassword, setTxtPassword] = useState("")
-
-    const onChange = () => {
-        console.log('Hubo un cambio')
-    }
 
     const txtUsernameOnChange = (event) => {
         const txtUsernameIngresado = event.target.value
@@ -27,7 +22,7 @@ const LoginPrincipal = (props) => {
     return <aside >
         <div className="card">
             <div className="card-body">
-                <h3 className="text-center">Inicio de Sesión</h3>
+                <h3 className="text-center">Inicio de Sesión de Administrador</h3>
                 <form>
                     <div className="mt-4">
                         <input id="txt_username" type="text" className="form-control"
@@ -36,12 +31,6 @@ const LoginPrincipal = (props) => {
                     <div className="mt-2">
                         <input id="txt_password" type="password" className="form-control"
                             defaultValue={txtPassword} onChange={txtPasswordOnChange} placeholder="Contraseña" />
-                    </div>
-                    <div className="recaptcha mt-4 mb-4">
-                        <ReCAPTCHA
-                            sitekey="6LfghIMeAAAAAIFAvBEOxKVvcrc8ud8Th1okwNxZ"
-                            onChange={onChange}
-                        />
                     </div>
                     <div className="d-grid gap-2 mt-2">
                         <button id="butLogin" className="btn btn-primary" type="button"
@@ -64,4 +53,4 @@ const LoginPrincipal = (props) => {
     </aside>
 }
 
-export default LoginPrincipal
+export default LoginAdministrador
