@@ -16,7 +16,7 @@ export default function ValidacionRegistro() {
                 <p>En esta sección se encontrará la información personal del usuario</p>
                 <p>Estado de la Cuenta:</p>
                 <p className="me-4">En Revisión <div class="spinner-border text-success" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                    <span className="visually-hidden">Loading...</span>
                 </div>
                 <a className="btn btn-primary ms-4" href="#" role="button">Estado de Revisión</a>
                 </p>
