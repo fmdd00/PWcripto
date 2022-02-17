@@ -19,7 +19,10 @@ export default function Registro() {
             <Footer2 />
         </div>
         <div className="mt-4">
-            <p className="text-center fs-6 fw-light">Sitio protegido por reCAPTCHA, aplican las <a className="link-primary" href="https://policies.google.com/privacy">Politicas de Privacidad</a> y <a className="link-primary" href="https://policies.google.com/terms">Terminos de Servicio</a> de Google.</p>
+            <p className="text-center fs-6 fw-light">
+                Sitio protegido por reCAPTCHA, aplican las <a className="link-primary" href="https://policies.google.com/privacy">Políticas
+                de Privacidad</a> y <a className="link-primary" href="https://policies.google.com/terms">Términos de Servicio</a> de Google.
+            </p>
         </div>
     </div>
 }
