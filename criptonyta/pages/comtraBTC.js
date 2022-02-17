@@ -3,14 +3,14 @@ import Activa2 from "../components/Activa2.Components"
 export default function MainPage() {
     return <div>
         <Activa2/>
-        <h2>Transacción  /  Vender</h2>
+        <h2>Transacción  /  Comprar</h2>
         <div class="row">
         <div className="col-6">
          <div className="card">
             <div className="card-body">
                 <form>
                     <div className="mx-auto d-block">
-                    <img class="mx-auto d-block" src="https://cimg.co/w/guides-attachments/1/5ca/36a871927b.jpg"/>
+                    <img class="mx-auto d-block"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm0dH-Sh4fIxhmMCRkIzoekj0EnWk5vuhegGTwcVD9a8qId9qLBcKrTdwxBBEJ4hGs4Q&usqp=CAU"/>
                     </div>
                     <div className="mt-2">
                         </div>
