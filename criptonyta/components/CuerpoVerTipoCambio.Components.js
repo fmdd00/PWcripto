@@ -24,36 +24,36 @@ const CuerpoVerTipoCambio = () => {
                     </div>
                     <div class="col-auto">
 
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="" />
+                        <input type="text" className="form-control" id="inputPassword2" placeholder="" />
                     </div>
                 </form>
                 <p className="mt-4">Saldo Disponible</p>
-                <input type="text" class="form-control mt-4" id="inputPassword2" placeholder="" />
+                <input type="text" className="form-control mt-4" id="inputPassword2" placeholder="" />
 
                 <p className="mt-4">Monto a Introducir</p>
-                <input type="text" class="form-control mt-4" id="inputPassword2" placeholder="" />
+                <input type="text" className="form-control mt-4" id="inputPassword2" placeholder="" />
 
-                <div class="d-grid gap-2 d-md-block">
-                <button type="button" class="btn btn-primary  gap-2 col-5 mx-auto mt-4 me-4">Compra</button>
-                <button type="button" class="btn btn-primary  gap-2 col-5 mx-auto mt-4">Venta</button>
+                <div className="d-grid gap-2 d-md-block">
+                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4 me-4">Compra</button>
+                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4">Venta</button>
                 </div>
             </div>
 
             <div className="col-3 ms-4">
 
                 
-                <select class="form-select" aria-label="Default select example">
+                <select className="form-select" aria-label="Default select example">
                     <option selected className="SeleccioneMoneda">Seleccione Moneda</option>
                     <option value="1">Dólar</option>
                     <option value="2">Soles</option>
                 </select>
-                <form class="row g-3">
-                    <div class="col-auto mt-4">
+                <form className="row g-3">
+                    <div className="col-auto mt-4">
                         Venta:
                     </div>
-                    <div class="col-auto">
+                    <div className="col-auto">
 
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="" />
+                        <input type="text" className="form-control" id="inputPassword2" placeholder="" />
                     </div>
                 </form>
 
