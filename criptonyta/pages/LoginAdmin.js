@@ -4,16 +4,15 @@ import LoginAdministrador from "../components/LoginAdministrador.Component"
 
 const LoginAdmin = () =>{
     return <div >
-        <div >
+        <div  >
             <h1>Crypto-Nita</h1>
-            <div>
-                IMAGEN
-            </div>
+            
             <div className="row mt-4">
-                <div className="col">
-                    <div className="mb-2">Escojer administrador:</div>
-                    <input className="form-control" placeholder="Nuevo administrador"></input>
-                </div>
+            <div className="col">
+            <img className="ratio ratio-7x9 IconoUser " src="https://i.pinimg.com/736x/d2/97/a3/d297a3eced48990f8001c8624ec84145.jpg" />
+            
+            </div>
+                
                 <div className="col"> <LoginAdministrador/></div>
                 <div className="col"></div>
             </div>
