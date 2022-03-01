@@ -85,3 +85,22 @@ align-items: center;
 .centrar{
   text-align: center;
 }
+
+.ventaColor{
+  
+  color: darkgreen;
+}
+
+.CompraColor{
+  
+  color: darkgreen;
+}
+
+.pensamiento{
+  font-style: oblique;
+  color: darkblue;
+  padding: 3px 10px;
+  border: PowderBlue 5px dashed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

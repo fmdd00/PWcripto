@@ -1,9 +1,11 @@
-import VentaCabecera from "../components/VentaCabecera.Components";
+
 import Paginacion from "../components/Paginacion.Components"
 import Footer2 from "../components/Footer2.Components"
+import LogoAdministrador from "../components/LogoAdmin.Component"
+
 export default function EditarTipoCambio() {
     return <div >
-        <VentaCabecera/>
+        <LogoAdministrador />
         
         <Paginacion/>
         

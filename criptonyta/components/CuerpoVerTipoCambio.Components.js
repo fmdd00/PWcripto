@@ -19,23 +19,20 @@ const CuerpoVerTipoCambio = () => {
 
                 <h3>Tipo Cambio:</h3>
                 <form class="row g-3">
-                    <div class="col-auto mt-4">
-                        Compra:
+                    <div class="col-auto mt-4 CompraColor">
+                        <h5 className="img-thumbnail">Compra:  S/ 3.90</h5>
                     </div>
-                    <div class="col-auto">
-
-                        <input type="text" className="form-control" id="inputPassword2" placeholder="" />
-                    </div>
+                    
                 </form>
-                <p className="mt-4">Saldo Disponible</p>
-                <input type="text" className="form-control mt-4" id="inputPassword2" placeholder="" />
+                <h5 className="mt-4">Saldo Disponible :     ........</h5>
+                
 
-                <p className="mt-4">Monto a Introducir</p>
+                <h5 className="mt-4">Monto a Introducir:</h5>
                 <input type="text" className="form-control mt-4" id="inputPassword2" placeholder="" />
 
                 <div className="d-grid gap-2 d-md-block">
-                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4 me-4">Compra</button>
-                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4">Venta</button>
+                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4 me-4">Comprar</button>
+                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4">Vender</button>
                 </div>
             </div>
 
@@ -44,22 +41,20 @@ const CuerpoVerTipoCambio = () => {
                 
                 <select className="form-select" aria-label="Default select example">
                     <option selected className="SeleccioneMoneda">Seleccione Moneda</option>
-                    <option value="1">Dólar</option>
+                    <option value="1">BitCoins</option>
                     <option value="2">Soles</option>
                 </select>
                 <form className="row g-3">
-                    <div className="col-auto mt-4">
-                        Venta:
+                    <div className="col-auto mt-4 ">
+                        <h5 className="ventaColor img-thumbnail">Venta:  S/ 3.71</h5>
                     </div>
-                    <div className="col-auto">
-
-                        <input type="text" className="form-control" id="inputPassword2" placeholder="" />
-                    </div>
+                    
                 </form>
 
-                <p className="mt-4"> Lorem ipsum dolor sit amet consectetur adipiscing elit, ultricies penatibus dui sociis a mollis,
-            vivamus aenean euismod dignissim conubia porttitor. Montes lobortis ante lectus hendrerit erat metus
-            eu nisi in enim non sociosqu, odio luctus sagittis turpis donec eget hac bibendum nisl commodo. </p>
+                <p className="mt-4 pensamiento"> En esta sección podrás cambiar de BitCoins a Soles y/o de Soles a BitCoins con un
+                sólo click.
+                <img width={240} height={300} src="https://img.freepik.com/vector-gratis/mujer-diseno-personajes-dibujos-animados-personas-presentando-algo-alegremente_311865-7632.jpg?size=338&ext=jpg"></img>
+                 </p>
             
 
             </div>
