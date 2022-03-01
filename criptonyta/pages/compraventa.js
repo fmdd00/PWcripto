@@ -1,13 +1,13 @@
-import Encabezado from "../components/Encabezado.Components"
+import LogoAdministrador from "../components/LogoAdmin.Component"
 import Footer2 from "../components/Footer2.Components"
-import Activa2 from "../components/Activa2.Components"
-import Bienvenida from "../components/Bienvenida.component"
+
 import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 export default function MainPage() {
     return <div>
         
-        <Activa2/>
-        <EncabezadoOpciones />
+        <LogoAdministrador/>
+        <div className="mt-4">< EncabezadoOpciones /></div>
+        
 
         <h2>Comprar/Vender</h2>
 
