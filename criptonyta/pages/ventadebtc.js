@@ -1,8 +1,8 @@
 import Footer2 from "../components/Footer2.Components"
-import Activa2 from "../components/Activa2.Components"
+import LogoAdministrador from "../components/LogoAdmin.Component"
 export default function MainPage() {
     return <div>
-        <Activa2/>
+        <LogoAdministrador/>
         <h2>Transacción  /  Vender</h2>
         <div class="row">
         <div className="col-6">
