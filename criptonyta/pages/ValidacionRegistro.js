@@ -1,10 +1,10 @@
-import Suspendida from "../components/Suspendida.Components"
+import Activa from "../components/Activa.Components"
 import Encabezado from "../components/Encabezado.Components"
 import CuentaValidacion from "../components/CuentaValidacion.Components"
 import Footer2 from "../components/Footer2.Components"
 export default function ValidacionRegistro() {
     return <div>
-        <Suspendida />
+        <Activa/>
         <Encabezado />
 
         <div className="row ">
