@@ -1,4 +1,4 @@
-import Encabezado from "../components/Encabezado.Components"
+import NavegacionAdmin from "../components/NavAdmin.Component"
 import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
 
@@ -6,7 +6,7 @@ export default function menuEditarCliente() {
     return <div className="container">
 
         <LogoAdministrador />
-        <Encabezado />
+        <NavegacionAdmin />
         <div className="row">
             <div className="col">
                 <div className="card">
