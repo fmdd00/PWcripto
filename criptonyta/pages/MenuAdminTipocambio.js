@@ -1,16 +1,17 @@
+import Paginacion from "../components/Paginacion.Components"
 import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
-import NavegacionAdmin from "../components/NavAdmin.Component"
+
 
 const MenuAdminTipoCambio = () => {
     return <div className="container">
         <LogoAdministrador />
-        <NavegacionAdmin />
+        <Paginacion/>
         <div className="row">
-            <div className="col-4">
+            <div className="col-4"> 
             </div>
             <div className="col-4">
-                <div className="card">
+                <div className="card mt-4">
                     <div className="card-body mx-auto">
                         <h3>Tipo de cambio</h3>
                         <input className="form mt-2" defaultValue="3.75"></input>
@@ -22,8 +23,11 @@ const MenuAdminTipoCambio = () => {
             </div>
 
         </div>
-
+        <div className="mt-5">
         <Footer2 />
+        </div>
+
+        
     </div>
 }
 
