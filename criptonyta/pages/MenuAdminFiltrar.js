@@ -2,7 +2,7 @@ import NavegacionAdmin from "../components/NavAdmin.Component"
 import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
 
-export default function menuEditarCliente() {
+export default function menuFiltarCliente() {
     return <div className="container">
 
         <LogoAdministrador />
@@ -11,9 +11,18 @@ export default function menuEditarCliente() {
             <div className="col">
                 <div className="card">
                     <div className="mx-auto mt-2">
-                        <h3>Editar Cliente</h3>
+                        <h3>Buscar Cliente</h3>
                     </div>
-                    
+                    <div className="mt-2">
+                        <nav className="navbar navbar-light bg-light">
+                            <div className="container-fluid">
+                                <form className="d-flex">
+                                    <input className="form-control me-2" type="search" placeholder="Filtrar por cliente" aria-label="Search" />
+                                        <button className="btn btn-outline-success" type="submit">Buscar</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
                     <div className="card-body">
                         <table className="table">
                             <thead>
