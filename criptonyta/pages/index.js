@@ -4,8 +4,8 @@ import Header from "../components/Header.component"
 import Login from "../components/Login.Components"
 import PiePagina from "../components/PiePagina.Components"
 export default function Home() {
-  return <div >
-    <div >
+  return <body className="fondoPrincipal">
+    <div  >
       <Header />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <h1 className="titulo">Crypto-nita</h1>
@@ -27,5 +27,5 @@ export default function Home() {
         <Footer />
       </div>
     </div>
-  </div>
+  </body>
 }
