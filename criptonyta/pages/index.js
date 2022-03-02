@@ -20,7 +20,7 @@ export default function Home() {
             virtual los bitcoins a soles y/o soles a bitcoins.
                
            </div>
-           <div className="col-md-4 offset-md-7  "><img width={240} height={200} src="https://us.123rf.com/450wm/aihero/aihero1611/aihero161100016/66546110-le-revenu-passif-du-mobile-illustration-de-bande-dessin%C3%A9e-d-affaires.jpg"></img>
+           <div className="col-md-4 offset-md-9  "><img width={240} height={200} src="https://us.123rf.com/450wm/aihero/aihero1611/aihero161100016/66546110-le-revenu-passif-du-mobile-illustration-de-bande-dessin%C3%A9e-d-affaires.jpg"></img>
              </div>
            
       </div>
