@@ -25,8 +25,8 @@ export default function formatoRegistroPaso2() {
                     <div className="form-check mt-4">
                         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" for="flexCheckDefault">
-                                <p> Acepto los <a className="link-primary" href="#">Términos y Condiciones</a> de Crypto-Nita 
-                                    y la <a className="link-primary" href="#">Política de privacidad</a> y autorizo el tratamiento 
+                                <p> Acepto los <a className="link-primary" href="/TerminosCondiciones">Términos y Condiciones</a> de Crypto-Nita 
+                                    y la <a className="link-primary" href="https://policies.google.com/terms">Política de privacidad</a> de Google y autorizo el tratamiento 
                                     de mis datos personales de conformidad con la Política de Privacidad.</p>
                             </label>
                     </div>
