@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "Crypto",
+    "username": "portafolio",
     "password": "postgres",
     "database": "database_Crypto",
     "host": "127.0.0.1",
