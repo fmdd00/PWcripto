@@ -3,11 +3,11 @@ const Opciones = () => {
         <h2 className="mt-4">Opciones</h2>
         
         <div className="list-group mt-4 ">
-            <a href="/Login" className="list-group-item list-group-item-action " aria-current="true">
+            <a href="/VerTipoCambio" className="list-group-item list-group-item-action " aria-current="true">
             Comprar/Vender
             </a>
-            <a href="/Registro" className="list-group-item list-group-item-action active">Historial</a>
-            <a href="/Registro" className="list-group-item list-group-item-action">Cerrar Sesión</a>
+            <a href="/CuentaActiva" className="list-group-item list-group-item-action active">Historial</a>
+            <a href="/CerrarSesion" className="list-group-item list-group-item-action">Cerrar Sesión</a>
       
             
         </div>

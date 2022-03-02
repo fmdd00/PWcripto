@@ -10,8 +10,8 @@ const CuerpoVerTipoCambio = () => {
                     <a href="/Login" className="list-group-item list-group-item-action active " aria-current="true">
                         Comprar/Vender
                     </a>
-                    <a href="/Registro" className="list-group-item list-group-item-action ">Historial</a>
-                    <a href="/Registro" className="list-group-item list-group-item-action">Cerrar Sesión</a>
+                    <a href="/CuentaActiva" className="list-group-item list-group-item-action ">Historial</a>
+                    <a href="/CerrarSesion" className="list-group-item list-group-item-action">Cerrar Sesión</a>
                 </div>
             </div>
 
