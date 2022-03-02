@@ -10,7 +10,7 @@ export default function EnviarVender() {
 
 
 
-        <Footer4/>
+        <Footer4/> 
 
     </div>
 }
