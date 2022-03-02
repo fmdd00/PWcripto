@@ -3,7 +3,12 @@ import LogoAdministrador from "../components/LogoAdmin.Component"
 export default function MainPage() {
     return <div>
         <LogoAdministrador/>
-        <h2>Transacción  /  Vender</h2>
+        <h2><nav >
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Transacción</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Vender</li>
+            </ol>
+        </nav></h2>
         <div class="row">
         <div className="col-6">
          <div className="card">
