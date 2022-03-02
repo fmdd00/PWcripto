@@ -1,11 +1,11 @@
-import LogoAdministrador from "../components/LogoAdmin.Component"
+import Activa from "../components/Activa.Components"
 import Footer2 from "../components/Footer2.Components"
 
 import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 export default function MainPage() {
     return <div>
         
-        <LogoAdministrador/>
+        <Activa/>
         <div className="mt-4">< EncabezadoOpciones /></div>
         
 

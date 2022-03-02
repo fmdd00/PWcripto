@@ -2,11 +2,12 @@
 import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 import CuerpoVerTipoCambio from "../components/CuerpoVerTipoCambio.Components"
 import Footer2 from "../components/Footer2.Components"
-import LogoAdministrador from "../components/LogoAdmin.Component"
+import Activa from "../components/Activa.Components"
 
 export default function VerTipoCambio() {
     return <div>
-        <LogoAdministrador />
+        <Activa />
+
         <div className="mt-4"><EncabezadoOpciones /></div>
        
 

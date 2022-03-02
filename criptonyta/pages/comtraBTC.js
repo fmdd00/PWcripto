@@ -1,8 +1,8 @@
 import Footer2 from "../components/Footer2.Components"
-import LogoAdministrador from "../components/LogoAdmin.Component"
+import Activa from "../components/Activa.Components"
 export default function MainPage() {
     return <div>
-        <LogoAdministrador />
+        <Activa />
         <h2><nav >
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Transacción</a></li>

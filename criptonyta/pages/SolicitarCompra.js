@@ -1,8 +1,8 @@
 import Footer2 from "../components/Footer2.Components"
-import LogoAdministrador from "../components/LogoAdmin.Component"
+import Activa from "../components/Activa.Components"
 export default function SolicitarCompra() {
     return <div>
-       <LogoAdministrador/>
+       <Activa/>
        <h2><nav >
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Transacción</a></li>
@@ -46,11 +46,11 @@ export default function SolicitarCompra() {
                 </div>
             </div>
             <div class="col-6">
-                <div className="card">
+                <div className="card pasos">
                     
 
-
-                    <img class="mx-auto d-block" src="" />
+                    <h6 className="transac">Sólo unos pasos más y tu transacción estará completa!</h6>
+                    <img class="mx-auto d-block" width={280} height={280} src="https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg?size=338&ext=jpg&ga=GA1.2.1549050659.1639612800" />
 
 
                     

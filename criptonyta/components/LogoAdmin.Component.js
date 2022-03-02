@@ -1,5 +1,6 @@
 const LogoAdministrador = () =>{
     return <div className="row">
+
     <div className="col-8"><h1>Crypto-nita</h1></div>
     <div className="col border backgroung-color:gray">
         <div className="row">
@@ -15,6 +16,8 @@ const LogoAdministrador = () =>{
         </div>
 
     </div>
+
+    
 </div>
 }
 

@@ -1,15 +1,16 @@
 
-import NavegacionAdmin from "../components/NavAdmin.Component"
+import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 import OpcionesCerrarSesion from "../components/OpcionesCerrarSesion.Components"
 import Footer2 from "../components/Footer2.Components"
 export default function CerrarSesion() {
     return <div>
+        <h2>Crypto-Nyta</h2>
          
-        <NavegacionAdmin />
+         <div className="mt-4"><EncabezadoOpciones /></div>
         <div className="row ">
             <div className="col-3 mt-4"><OpcionesCerrarSesion /></div>
-            <div className="col-3"><img className="ratio ratio-10x9 img-thumbnail" width={50} height={50} src="https://icones.pro/wp-content/uploads/2021/02/symbole-masculin-icone-l-utilisateur-vert.png" />
-                                     <h5 className="centrar mt-4">USUARIO 1</h5>
+            <div className="col-3"><img className="ratio ratio-10x9 img-thumbnail" width={50} height={50} src="https://www.itemformacion.com/img/netlog3.png" />
+                                     <h5 className="centrar mt-4">Nombre de Usuario</h5>
                 <div class="d-grid gap-2 col-6 mx-auto mt-4">
   <button class="btn btn-primary" type="button">Cerrar Sesión</button>
   
