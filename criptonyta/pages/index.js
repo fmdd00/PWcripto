@@ -15,11 +15,9 @@ export default function Home() {
         </div>
         <div className="col mt-4 indextext">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit, ultricies penatibus dui sociis a mollis,
-            vivamus aenean euismod dignissim conubia porttitor. Montes lobortis ante lectus hendrerit erat metus
-            eu nisi in enim non sociosqu, odio luctus sagittis turpis donec eget hac bibendum nisl commodo. Malesuada
-            porttitor quisque euismod facilisi eros pellentesque convallis cursus interdum, laoreet lectus nascetur integer
-            libero at arcu accumsan sociis viverra, vehicula justo primis netus montes rutrum tellus penatibus.
+            Bienvenidos a nuestro proyecto Crypto-nita del curso de Programación
+            Web. Crypto-nita es una página web que permite cambiar de manera 
+            virtual los bitcoins a soles y/o soles a bitcoins.
           </p>
         </div>
       </div>
