@@ -3,16 +3,16 @@ const Footer = () => {
         <div className="card-body">
             <div className="row row-cols-auto">
                 <div className="col">
-                    <a href="/Nosotros">Nosotros</a>
+                    <a className="text-decoration-underline" href="/Nosotros">Nosotros</a>
                 </div>
                 <div>
-                    <a href="/TerminosCondiciones">Términos y condiciones</a>
+                    <a className="text-decoration-underline" href="/TerminosCondiciones">Términos y condiciones</a>
                 </div>
                 <div>
-                    <a href="#">Grupo 5</a>
+                    <p className="fw-bold">Grupo 5</p>
                 </div>
                 <div>
-                    <a href="#">2022</a>
+                    <p className="fw-bold">2022</p>
                 </div>
             </div>
         </div>

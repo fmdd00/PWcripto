@@ -14,9 +14,9 @@ const MenuAdminTipoCambio = () => {
                 <div className="card mt-4">
                     <div className="card-body mx-auto">
                         <h3>Tipo de cambio</h3>
-                        <input className="form mt-2" defaultValue="3.75"></input>
+                        <p className="text-center fs-1 fw-bold form mt-2">S/. 3.75</p>
                         <div className="mt-2">
-                            <a className="btn btn-primary container-fluid"> CAMBIAR </a>
+                            <a className="btn btn-primary container-fluid" href="/EditarTipoCambio"> CAMBIAR </a>
                         </div>
                     </div>
                 </div>
