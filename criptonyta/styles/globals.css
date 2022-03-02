@@ -106,7 +106,7 @@ align-items: center;
 }
 
 .titulo{
-  color: teal;
+  color: rgb(62, 95, 61);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -115,6 +115,12 @@ align-items: center;
   border: teal 5px dashed;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 200px;
 }
 
 .transac{
@@ -159,5 +165,5 @@ align-items: center;
 }
 
 .fondoPrincipal{
-  background-color: lavender;
+  background-color: rgb(201, 219, 204);
 }
