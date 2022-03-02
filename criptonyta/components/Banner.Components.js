@@ -4,10 +4,10 @@ const Banner = (props) => {
             <div className="carousel-inner">
                 
                 <div className="carousel-item active">
-                    <img src="https://www.peruhop.com/wp-content/uploads/moneda-en-peru-soles-portada.jpg" className="d-block w-100 IMG1" alt="..."/>
+                    <img src="https://kevinmelgarejo.com/wp-content/uploads/2018/02/Invertir-en-Bitcoin-C%C3%B3mo-hacerlo..jpg" className="d-block w-100 IMG1" alt="..."/>
                 </div>
                 <div className="carousel-item ">
-                    <img src="https://finanzasycredito.mx/sites/finanzasycredito.mx/files/mx-guide-tipo-de-cambio-825x293.png" className="d-block w-100" alt="..."/>
+                    <img src="https://cnnespanol.cnn.com/wp-content/uploads/2017/12/171207160257-cnn-money-bitcoin-explainer-full-169.jpg?quality=100&strip=info" className="d-block w-100" alt="..."/>
                 </div>
                 
             </div>

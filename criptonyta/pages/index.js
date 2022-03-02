@@ -8,12 +8,12 @@ export default function Home() {
     <div >
       <Header />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      <h1>Crypto-nita</h1>
+      <h1 className="titulo">Crypto-nita</h1>
       <div className="row">
         <div className="col">
           <Banner />
         </div>
-        <div className="col mt-4">
+        <div className="col mt-4 indextext">
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit, ultricies penatibus dui sociis a mollis,
             vivamus aenean euismod dignissim conubia porttitor. Montes lobortis ante lectus hendrerit erat metus

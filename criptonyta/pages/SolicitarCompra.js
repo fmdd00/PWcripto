@@ -9,6 +9,54 @@ export default function SolicitarCompra() {
                 <li class="breadcrumb-item active" aria-current="page">Comprar</li>
             </ol>
         </nav></h2>
+        <div class="row">
+            <div className="col-6">
+                <div className="card">
+                    <div className="card-body">
+                        <form>
+                            <div className="mx-auto d-block">
+
+
+                            <h3 className="text-center">Solicitar Cambio</h3>
+                        <form>
+                            <div className="mt-4">
+                                <h5>Monto:</h5>
+                                <input id="txt_username" type="text" className="form-control" placeholder="BTC" />
+                            </div>
+                            <div className="mt-4">
+                            <h5>Billetera:</h5>
+                                <input id="txt_password" type="password" className="form-control" placeholder="S/." />
+                            </div>
+                            <div></div>
+                            <div className="d-grid gap-2 mt-2">
+                                <button id="butLogin" className="btn btn-primary btn-5" type="button">Cambiar</button>
+                            </div>
+                        </form>
+
+
+
+                               
+
+
+                            </div>
+                            <div className="mt-2">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div className="card">
+                    
+
+
+                    <img class="mx-auto d-block" src="" />
+
+
+                    
+                </div>
+            </div>
+        </div>
         
         <Footer2 />
     </div>

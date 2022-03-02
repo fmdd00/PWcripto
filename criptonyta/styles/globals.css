@@ -105,3 +105,14 @@ align-items: center;
   border-bottom-right-radius: 20px;
 }
 
+.titulo{
+  color: teal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indextext{
+  padding: 3px 10px;
+  border: teal 5px dashed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
