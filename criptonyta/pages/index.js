@@ -1,9 +1,21 @@
 import Banner from "../components/Banner.Components"
 import Footer from "../components/Footer.component"
 import Header from "../components/Header.component"
-import Login from "../components/Login.Components"
-import PiePagina from "../components/PiePagina.Components"
+import { useEffect, useState } from "react";
+
 export default function Home() {
+
+  const [listaImagenes, setListaImagenes] = useState([])
+
+  useEffect(async () => {
+
+    // Llamada AJAX para cargar lista de urls de imagenes
+    const response = await fetch("/api/imagenes")
+    const dataImagenes = await response.json()
+    setListaImagenes(dataImagenes.images)
+
+}, [])
+
   return <body className="fondoPrincipal">
     <div className="row"  >
       <Header />
@@ -11,7 +23,7 @@ export default function Home() {
       <h1 className="titulo">Crypto-nita</h1>
       <div className="row">
         <div className="col">
-          <Banner />
+          <Banner  images={ listaImagenes } />
         </div>
         <div className="col mt-4 indextext">
           
