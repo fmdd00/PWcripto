@@ -2,11 +2,8 @@ import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
 import NavegacionAdmin from "../components/NavAdmin.Component"
 import ListaClientes from "../components/ListaClientes.Component"
-import { useEffect, useState } from "react"
 
 const MenuAdminClientes = () => {
-
-    const [listadoCliente, setListadoClientes] = useState([])
 
     return <div className="container">
         <LogoAdministrador />
