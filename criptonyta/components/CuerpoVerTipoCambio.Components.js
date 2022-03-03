@@ -22,17 +22,17 @@ const CuerpoVerTipoCambio = () => {
                     <div class="col-auto mt-4 CompraColor">
                         <h5 className="img-thumbnail">Compra:  S/ 3.90</h5>
                     </div>
-                    
+
                 </form>
                 <h5 className="mt-4">Saldo Disponible :     ........</h5>
-                
+
 
                 <h5 className="mt-4">Monto a Introducir:</h5>
                 <input type="text" className="form-control mt-4" id="inputPassword2" placeholder="" />
 
-                <div className="d-grid gap-2 d-md-block">
-                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4 me-4">Comprar</button>
-                <button type="button" className="btn btn-primary  gap-2 col-5 mx-auto mt-4">Vender</button>
+                <div className="d-grid gap-2">
+                    <a type="button" className="btn btn-primary mt-4" href="/compraventa" >Comprar</a>
+                    <a type="button" className="btn btn-primary mt-2" href="/compraventa" >Vender</a>
                 </div>
             </div>
 
