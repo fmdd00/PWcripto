@@ -14,7 +14,7 @@ const MenuAdminClientes = () => {
                     <div className="mx-auto">
                         <h3>Lista de Clientes</h3>
                     </div>
-                    <ListaClientes clientes={ listadoClientes } modo={ "crud" } />
+                    <ListaClientes />
                 </div>
             </div>
         </div>
