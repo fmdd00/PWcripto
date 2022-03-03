@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from "react"
 
-export default function formatoRegistroPaso2(props) {
+export default function FormatoRegistroPaso2(props) {
 
     // Variables internas (variables de estado) del componente
     const [txtCorreo, setTxtCorreo] = useState("")
@@ -58,13 +59,33 @@ export default function formatoRegistroPaso2(props) {
                     <div className="form-check mt-4">
                         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                                <p> Acepto los <a className="link-primary" href="/TerminosCondiciones">Términos y Condiciones</a> de Crypto-Nita 
-                                    y la <a className="link-primary" href="https://policies.google.com/terms">Política de privacidad</a> de Google y autorizo el tratamiento 
+                                <p> Acepto los 
+                                <Link href="/TerminosCondiciones">
+        <a className="link-primary">Términos y Condiciones</a>
+      </Link>
+                                    
+                                    
+                                    
+                                     de Crypto-Nita 
+                                    y la 
+                                    
+                                    
+                                    <a className="link-primary" href="https://policies.google.com/terms">Política de privacidad</a>
+                                    
+                                     de Google y autorizo el tratamiento 
                                     de mis datos personales de conformidad con la Política de Privacidad.</p>
                             </label>
                     </div>
                     <div className="d-grid gap-2 mt-2">
-                        <a id="butLogin" className="btn btn-primary" type="button" href="/main" onClick={butFinalizarOnClick}>Finalizar</a>
+
+                    <Link href="/main">
+        <a id="butLogin" className="btn btn-primary" type="button" onClick={butFinalizarOnClick}>Finalizar</a>
+      </Link>
+
+
+                        
+
+
                         <button id="butLogin" className="btn btn-secondary" type="button" onClick={ () => router.back() }>Regresar</button>
                     </div>
                 </form>

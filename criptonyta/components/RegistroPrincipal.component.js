@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from "react"
 
-export default function formatoRegistro(props) {
+export default function FormatoRegistro(props) {
 
      // Variables internas (variables de estado) del componente
      const [txtNombre, setTxtNombre] = useState("")
@@ -49,8 +50,11 @@ export default function formatoRegistro(props) {
                     </div>
                     
                     <div className="d-grid gap-2 mt-2">
-                        <a id="butLogin" className="btn btn-primary" type="button" href="/Registro2"
-                        onClick={butSiguienteOnClick}>Siguiente</a>
+                    <Link href="/Registro2">
+        <a id="butLogin" className="btn btn-primary" type="button"  onClick={butSiguienteOnClick}>Siguiente</a>
+      </Link>
+                        
+
                         <button id="butLogin" className="btn btn-secondary" type="button" onClick={ () => router.back() }>Regresar</button>
                     </div>
                 </form>

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const EncabezadoOpciones=()=>{
-    return <ul class="nav nav-tabs nav justify-content-end">
+    return <ul className="nav nav-tabs nav justify-content-end">
       <li className="nav-item">
       <Link href="/">
         <a className="nav-link " >Inicio</a>
