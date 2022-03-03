@@ -1,5 +1,8 @@
 const EncabezadoOpciones=()=>{
     return <ul class="nav nav-tabs nav justify-content-end">
+      <li className="nav-item">
+      <a className="nav-link " href="/">Inicio</a>
+    </li>
     <li className="nav-item">
       <a className="nav-link " href="/Nosotros">Conocenos</a>
     </li>
