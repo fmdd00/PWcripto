@@ -12,7 +12,6 @@ const Activa = () => {
                 <div className="col-5">
                     <h5>User Name</h5>
                     <p>userName@hotmail.com</p></div>
-                    <a href="#">Mi Cartera</a>
                 </div>
             </div>
         </div>

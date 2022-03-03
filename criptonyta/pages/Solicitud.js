@@ -4,9 +4,9 @@ export default function SolicitarVenta() {
     return <div>
         <Activa />
         <h2><nav >
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Transacción</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Solicitud</li>
+            <ol className="breadcrumb">
+                <li className="breadcrumb-item"><a href="#">Transacción</a></li>
+                <li className="breadcrumb-item active" aria-current="page">Solicitud</li>
             </ol>
         </nav></h2>
         <h3 className="unode3">Paso 1 de 3</h3>

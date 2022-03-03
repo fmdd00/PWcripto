@@ -1,6 +1,6 @@
 const Footer2 = () => {
     return <div>
-        <div className="card mt-4">
+        <div className="card mt-5">
 
                 <div className="card-body bg-dark text-center text-white">
                     <h4 className="card-title" >MEET US</h4>

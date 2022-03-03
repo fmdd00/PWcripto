@@ -13,7 +13,7 @@ export default function MainPage() {
 
         <div className="col"> <h2 className="text-center">¿Qué deseas hacer?</h2></div>
 
-        <div class="row">
+        <div className="row">
 
 
         
@@ -23,7 +23,7 @@ export default function MainPage() {
                 <h3 className="text-center">Quiero Comprar</h3>
                 <form>
                     <div className="mx-auto d-block">
-                    <img class="mx-auto d-block"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm0dH-Sh4fIxhmMCRkIzoekj0EnWk5vuhegGTwcVD9a8qId9qLBcKrTdwxBBEJ4hGs4Q&usqp=CAU"/>
+                    <img className="mx-auto d-block"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm0dH-Sh4fIxhmMCRkIzoekj0EnWk5vuhegGTwcVD9a8qId9qLBcKrTdwxBBEJ4hGs4Q&usqp=CAU"/>
                     </div>
                     <div className="mt-2">
                         </div>
@@ -35,13 +35,13 @@ export default function MainPage() {
         </div>
         </div>
         
-        <div class="col-6">
+        <div className="col-6">
         <div className="card">
             <div className="card-body">
                 <h3 className="text-center">Quiero Vender</h3>
                 <form>
                     <div className="mx-auto d-block">
-                    <img class="mx-auto d-block" src="https://cimg.co/w/guides-attachments/1/5ca/36a871927b.jpg"/>
+                    <img className="mx-auto d-block" src="https://cimg.co/w/guides-attachments/1/5ca/36a871927b.jpg"/>
                     </div>
                     <div className="mt-2">
                         </div>
