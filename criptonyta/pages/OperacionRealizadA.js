@@ -1,10 +1,10 @@
-import VentaCabecera from "../components/VentaCabecera.Components";
+import Activa from "../components/Activa.Components";
 import Footer4 from "../components/Footer4.Components";
 import CuerpoVenta from "../components/CuerpoVenta.Components";
 
 export default function EnviarVender() {
     return <div >
-        <VentaCabecera />
+        <Activa />
         <h2 className="venta">Operacion Realizada</h2>
         <div className="card-body">
             <h4 className="mt-5">Número de Operación:</h4>
