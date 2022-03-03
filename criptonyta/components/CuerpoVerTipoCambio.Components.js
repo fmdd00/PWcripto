@@ -18,17 +18,25 @@ const CuerpoVerTipoCambio = () => {
             <div className="col-5 ">
 
                 <h3>Tipo Cambio:</h3>
-                <form class="row g-3">
-                    <div class="col-auto mt-4 CompraColor">
-                        <h5 className="img-thumbnail">1 BTC = S/. 162,915.38</h5>
-                    </div>
-                </form>
+                <select className="form-select" aria-label="Default select example">
+                    <option selected className="SeleccioneMoneda">Seleccione Moneda</option>
+                    <option value="1">BitCoins</option>
+                    <option value="2">Soles</option>
+                </select>
+                <div>
+                    <form class="row g-3">
+                        <div class="col-auto mt-4 CompraColor">
+                            <h5 className="img-thumbnail">1 BTC = S/. 162,915.38</h5>
+                        </div>
+                    </form>
 
-                <form class="row g-3">
-                    <div class="col-auto mt-4 CompraColor">
-                        <h5 className="img-thumbnail">S/.1.00 = 0.00000061 BTC</h5>
-                    </div>
-                </form>
+                    <form class="row g-3">
+                        <div class="col-auto mt-4 CompraColor">
+                            <h5 className="img-thumbnail">S/.1.00 = 0.00000061 BTC</h5>
+                        </div>
+                    </form>
+                </div>
+
 
                 <div className="d-grid gap-2">
                     <a type="button" className="btn btn-primary mt-4" href="/compraventa" >Comprar / Vender</a>
@@ -38,11 +46,7 @@ const CuerpoVerTipoCambio = () => {
             <div className="col-3 ms-4">
 
 
-                <select className="form-select" aria-label="Default select example">
-                    <option selected className="SeleccioneMoneda">Seleccione Moneda</option>
-                    <option value="1">BitCoins</option>
-                    <option value="2">Soles</option>
-                </select>
+                
                 
 
                 <p className="mt-4 pensamiento"> En esta sección podrás cambiar de BitCoins a Soles y/o de Soles a BitCoins con un

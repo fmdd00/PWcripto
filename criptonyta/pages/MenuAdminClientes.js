@@ -21,7 +21,6 @@ const MenuAdminClientes = () => {
                                     <th>DNI</th>
                                     <th>Correo electónico</th>
                                     <th>Telefono</th>
-                                    <th>Editar</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -31,7 +30,6 @@ const MenuAdminClientes = () => {
                                     <td>71406823</td>
                                     <td>CLIENTE@CLIENTE.COM</td>
                                     <td>013461323</td>
-                                    <td><button className="btn btn-info">→</button></td>
                                 </tr>
                                 <tr>
                                     <td>NOMBRE1,NOMBRE2,APELLIDO1,APELLIDO2</td>
@@ -39,7 +37,6 @@ const MenuAdminClientes = () => {
                                     <td>42561232</td>
                                     <td>CLIENTE@CLIENTE.COM</td>
                                     <td>018646323</td>
-                                    <td><button className="btn btn-info">→</button></td>
                                 </tr>
                                 <tr>
                                     <td>NOMBRE1,NOMBRE2,APELLIDO1,APELLIDO2</td>
@@ -47,7 +44,6 @@ const MenuAdminClientes = () => {
                                     <td>64571522</td>
                                     <td>CLIENTE@CLIENTE.COM</td>
                                     <td>017661323</td>
-                                    <td><button className="btn btn-info">→</button></td>
                                 </tr>
                                 <tr>
                                     <td>NOMBRE1,NOMBRE2,APELLIDO1,APELLIDO2</td>
@@ -55,7 +51,6 @@ const MenuAdminClientes = () => {
                                     <td>33512144</td>
                                     <td>CLIENTE@CLIENTE.COM</td>
                                     <td>016741323</td>
-                                    <td><button className="btn btn-info">→</button></td>
                                 </tr>
                                 <tr>
                                     <td>NOMBRE1,NOMBRE2,APELLIDO1,APELLIDO2</td>
@@ -63,7 +58,6 @@ const MenuAdminClientes = () => {
                                     <td>93412313</td>
                                     <td>CLIENTE@CLIENTE.COM</td>
                                     <td>012161323</td>
-                                    <td><button className="btn btn-info">→</button></td>
                                 </tr>
                             </tbody>
                         </table>
