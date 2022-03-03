@@ -8,7 +8,7 @@ const Cuenta = () => {
         <a className="list-group-item list-group-item-action active" aria-current="true">Iniciar Sesión</a>
       </Link>
       <Link href="/Registro">
-        <a className="list-group-item list-group-item-action active" >Abrir Cuenta</a>
+        <a className="list-group-item list-group-item-action" >Abrir Cuenta</a>
       </Link>
             
             
