@@ -12,7 +12,7 @@ export default function CerrarSesion() {
             <div className="col-3"><img className="ratio ratio-10x9 img-thumbnail" width={50} height={50} src="https://www.itemformacion.com/img/netlog3.png" />
                 <h5 className="centrar mt-4">Nombre de Usuario</h5>
                 <div class="d-grid gap-2 col-6 mx-auto mt-4">
-                    <a class="btn btn-primary" type="button" href="/index" >Cerrar Sesión</a>
+                    <a class="btn btn-primary" type="button" href="/" >Cerrar Sesión</a>
 
                 </div></div>
 
