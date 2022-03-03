@@ -1,7 +1,7 @@
 import Paginacion from "../components/Paginacion.Components"
 import Footer2 from "../components/Footer2.Components"
 import LogoAdministrador from "../components/LogoAdmin.Component"
-
+import Link from 'next/link'
 
 const MenuAdminTipoCambio = () => {
     return <div className="container">
@@ -16,8 +16,10 @@ const MenuAdminTipoCambio = () => {
                         <h3>Tipo de cambio</h3>
                         <p className="text-center fs-1 fw-bold form mt-2">S/. 3.75</p>
                         <div className="mt-2">
-                            <a className="btn btn-primary container-fluid" href="/EditarTipoCambio"> CAMBIAR </a>
-                        </div>
+                        <Link href="/EditarTipoCambio">
+        <a>CAMBIAR</a>
+      </Link>
+                              </div>
                     </div>
                 </div>
             </div>

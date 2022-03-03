@@ -1,7 +1,7 @@
 import Activa from "../components/Activa.Components";
 import Footer4 from "../components/Footer4.Components";
-import CuerpoVenta from "../components/CuerpoVenta.Components";
 
+import Link from 'next/link'
 export default function EnviarVender() {
     return <div >
         <Activa />
@@ -11,7 +11,10 @@ export default function EnviarVender() {
             <h1 className="mt-2">00000000111111222222222222</h1>
         </div>
         <div className="text-center mt-4">
-            <a type="button" className="btn btn-primary btn-lg" href="/VerTipoCambio">Regresar a Compra / Venta</a>
+        <Link href="/VerTipoCambio">
+        <a>Regresar a Compra / Venta</a>
+      </Link>
+           
         </div>
         <div>
             <Footer4 />

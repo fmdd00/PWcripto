@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const CuerpoVerTipoCambio = () => {
     return <div>
 
@@ -7,11 +8,18 @@ const CuerpoVerTipoCambio = () => {
 
             <div className="col-3">
                 <div className="list-group mt-4 ">
-                    <a href="/Login" className="list-group-item list-group-item-action active " aria-current="true">
-                        Comprar/Vender
-                    </a>
-                    <a href="/CuentaActiva" className="list-group-item list-group-item-action ">Historial</a>
-                    <a href="/CerrarSesion" className="list-group-item list-group-item-action">Cerrar Sesión</a>
+                <Link href="/Login">
+        <a className="list-group-item list-group-item-action active " aria-current="true">Comprar/Vender</a>
+      </Link>
+                    
+                    <Link href="/CuentaActiva">
+        <a className="list-group-item list-group-item-action ">Historial</a>
+      </Link>
+                    
+                    <Link href="/CerrarSesion">
+        <a className="list-group-item list-group-item-action">Cerrar Sesión</a>
+      </Link>
+                    
                 </div>
             </div>
 
@@ -39,7 +47,10 @@ const CuerpoVerTipoCambio = () => {
 
 
                 <div className="d-grid gap-2">
-                    <a type="button" className="btn btn-primary mt-4" href="/compraventa" >Comprar / Vender</a>
+                <Link href="/compraventa">
+        <a type="button" className="btn btn-primary mt-4">Comprar / Vender</a>
+      </Link>
+                    
                 </div>
             </div>
 

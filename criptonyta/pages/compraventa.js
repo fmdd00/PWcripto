@@ -1,6 +1,6 @@
 import Activa from "../components/Activa.Components"
 import Footer2 from "../components/Footer2.Components"
-
+import Link from 'next/link'
 import EncabezadoOpciones from "../components/EncabezadoOpciones.Components"
 export default function MainPage() {
     return <div>
@@ -28,7 +28,11 @@ export default function MainPage() {
                     <div className="mt-2">
                         </div>
                     <div className="d-grid gap-2 mt-2">
-                        <a id="butLogin" className="btn btn-primary" type="button" href="/comtraBTC">Compra</a>
+                    <Link href="/comtraBTC">
+        <a>Compra</a>
+      </Link>
+
+                       
                     </div>
                 </form>
             </div>
@@ -46,8 +50,10 @@ export default function MainPage() {
                     <div className="mt-2">
                         </div>
                     <div className="d-grid gap-2 mt-2">
-                        <a id="butLogin" className="btn btn-primary" type="button" href="/ventadebtc">Vende</a>
-                    </div>
+                    <Link href="/ventadebtc">
+        <a>Vende</a>
+      </Link>
+                          </div>
                 </form> 
             </div>
         </div>

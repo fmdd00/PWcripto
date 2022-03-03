@@ -1,5 +1,6 @@
 import Footer2 from "../components/Footer2.Components"
 import Activa from "../components/Activa.Components"
+import Link from 'next/link'
 export default function SolicitarVenta() {
     return <div>
         <Activa />
@@ -18,8 +19,10 @@ export default function SolicitarVenta() {
                 <h5>Número de Solicitud:</h5>
                 <input id="txt_username" type="text" className="form-control" placeholder="XXXXXXXXXXXXXXXXXXXXXX" />
                 <div className="d-grid gap-2 mt-2">
-                    <a id="butLogin" className="btn btn-primary btn-5" type="button" href="/Confirmacion">Siguiente</a>
-                </div>
+                <Link href="/Confirmacion">
+        <a>Siguiente</a>
+      </Link>
+                    </div>
             </div>
             <Footer2 />
         </div>
