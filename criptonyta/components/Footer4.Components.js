@@ -2,7 +2,7 @@ const Footer4=()=>{
     return <div>
 
 
-<div className="card mt-4">
+<div className="card mt-5">
 <div className="progress Footer3y4 ">
   <div className="progress-bar progress-bar2" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 </div>

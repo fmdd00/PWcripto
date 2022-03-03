@@ -4,12 +4,12 @@ export default function SolicitarVenta() {
     return <div>
        <Activa/>
         <h2><nav >
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Transacción</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Vender</li>
+            <ol className="breadcrumb">
+                <li className="breadcrumb-item"><a href="#">Transacción</a></li>
+                <li className="breadcrumb-item active" aria-current="page">Vender</li>
             </ol>
         </nav></h2>
-        <div class="row">
+        <div className="row">
             <div className="col-6">
                 <div className="card">
                     <div className="card-body">
@@ -45,13 +45,13 @@ export default function SolicitarVenta() {
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div className="col-6">
                 <div className="card pasos">
                     
 
 
                 <h6 className="transac">Sólo unos pasos más y tu transacción estará completa!</h6>
-                    <img class="mx-auto d-block" width={280} height={280} src="https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg?size=338&ext=jpg&ga=GA1.2.1549050659.1639612800" />
+                    <img className="mx-auto d-block" width={280} height={280} src="https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg?size=338&ext=jpg&ga=GA1.2.1549050659.1639612800" />
 
 
                     

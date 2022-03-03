@@ -24,14 +24,14 @@ const CuerpoVerTipoCambio = () => {
                     <option value="2">Soles</option>
                 </select>
                 <div>
-                    <form class="row g-3">
-                        <div class="col-auto mt-4 CompraColor">
+                    <form className="row g-3">
+                        <div className="col-auto mt-4 CompraColor">
                             <h5 className="img-thumbnail">1 BTC = S/. 162,915.38</h5>
                         </div>
                     </form>
 
-                    <form class="row g-3">
-                        <div class="col-auto mt-4 CompraColor">
+                    <form className="row g-3">
+                        <div className="col-auto mt-4 CompraColor">
                             <h5 className="img-thumbnail">S/.1.00 = 0.00000061 BTC</h5>
                         </div>
                     </form>

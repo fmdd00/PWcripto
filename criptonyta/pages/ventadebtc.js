@@ -4,18 +4,18 @@ export default function MainPage() {
     return <div>
         <Activa/>
         <h2><nav >
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Transacción</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Vender</li>
+            <ol className="breadcrumb">
+                <li className="breadcrumb-item"><a href="#">Transacción</a></li>
+                <li className="breadcrumb-item active" aria-current="page">Vender</li>
             </ol>
         </nav></h2>
-        <div class="row">
+        <div className="row">
         <div className="col-6">
          <div className="card">
             <div className="card-body">
                 <form>
                     <div className="mx-auto d-block">
-                    <img class="mx-auto d-block" src="https://cimg.co/w/guides-attachments/1/5ca/36a871927b.jpg"/>
+                    <img className="mx-auto d-block" src="https://cimg.co/w/guides-attachments/1/5ca/36a871927b.jpg"/>
                     </div>
                     <div className="mt-2">
                         </div>
@@ -23,7 +23,7 @@ export default function MainPage() {
             </div>
         </div>
         </div>
-        <div class="col-6">
+        <div className="col-6">
         <div className="card">
             <div className="card-body">
                 <h3 className="text-center">Calcular Cambio</h3>
