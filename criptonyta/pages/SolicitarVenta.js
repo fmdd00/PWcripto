@@ -29,7 +29,7 @@ export default function SolicitarVenta() {
                             </div>
                             <div></div>
                             <div className="d-grid gap-2 mt-2">
-                                <button id="butLogin" className="btn btn-primary btn-5" type="button">Cambiar</button>
+                                <a id="butLogin" className="btn btn-primary btn-5" type="button" href="/Solicitud" >Cambiar</a>
                             </div>
                         </form>
 

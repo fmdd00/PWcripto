@@ -18,9 +18,9 @@ export default function SolicitarVenta() {
                        
                             
                                 <h5>Número de Solicitud:</h5>
-                                <input id="txt_username" type="text" className="form-control" placeholder="BTC" />
+                                <input id="txt_username" type="text" className="form-control" placeholder="XXXXXXXXXXXXXXXXXXXXXX" />
                                 <div className="d-grid gap-2 mt-2">
-                                <button id="butLogin" className="btn btn-primary btn-5" type="button">Siguiente</button>
+                                <a id="butLogin" className="btn btn-primary btn-5" type="button" href="/#">Siguiente</a>
                             </div>
 
                             </div>

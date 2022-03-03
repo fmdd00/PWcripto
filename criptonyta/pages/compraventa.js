@@ -28,7 +28,7 @@ export default function MainPage() {
                     <div className="mt-2">
                         </div>
                     <div className="d-grid gap-2 mt-2">
-                        <button id="butLogin" className="btn btn-primary" type="button">Compra</button>
+                        <a id="butLogin" className="btn btn-primary" type="button" href="/comtraBTC">Compra</a>
                     </div>
                 </form>
             </div>
@@ -46,7 +46,7 @@ export default function MainPage() {
                     <div className="mt-2">
                         </div>
                     <div className="d-grid gap-2 mt-2">
-                        <button id="butLogin" className="btn btn-primary" type="button">Vende</button>
+                        <a id="butLogin" className="btn btn-primary" type="button" href="/ventadebtc">Vende</a>
                     </div>
                 </form> 
             </div>
