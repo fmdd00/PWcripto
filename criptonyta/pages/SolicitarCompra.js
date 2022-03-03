@@ -1,5 +1,6 @@
 import Footer2 from "../components/Footer2.Components"
 import Activa from "../components/Activa.Components"
+import Link from 'next/link'
 export default function SolicitarCompra() {
     return <div>
         <Activa />
@@ -29,7 +30,10 @@ export default function SolicitarCompra() {
                                     </div>
                                     <div></div>
                                     <div className="d-grid gap-2 mt-2">
-                                        <a id="butLogin" className="btn btn-primary btn-5" type="button" href="/Solicitud">Cambiar</a>
+                                    <Link href="/Solicitud">
+        <a>Cambiar</a>
+      </Link>
+                                        
                                     </div>
                                 </form>
 
@@ -45,12 +49,12 @@ export default function SolicitarCompra() {
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div className="col-6">
                 <div className="card pasos">
 
 
                     <h6 className="transac">Sólo unos pasos más y tu transacción estará completa!</h6>
-                    <img class="mx-auto d-block" width={280} height={280} src="https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg?size=338&ext=jpg&ga=GA1.2.1549050659.1639612800" />
+                    <img className="mx-auto d-block" width={280} height={280} src="https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg?size=338&ext=jpg&ga=GA1.2.1549050659.1639612800" />
 
 
 

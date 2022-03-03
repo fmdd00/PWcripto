@@ -1,5 +1,6 @@
 import Footer2 from "../components/Footer2.Components"
 import Activa from "../components/Activa.Components"
+import Link from 'next/link'
 export default function MainPage() {
     return <div>
         <Activa />
@@ -37,7 +38,10 @@ export default function MainPage() {
                             <div></div>
                             <div className="d-grid gap-2 mt-2">
                                 <a className="btn btn-primary" type="button" href="#">Calcular</a>
-                                <a className="btn btn-secondary" type="button" href="/SolicitarCompra">Solicitar</a>
+                                <Link href="/SolicitarCompra">
+        <a>Solicitar</a>
+      </Link>
+
                             </div>
                         </form>
                     </div>

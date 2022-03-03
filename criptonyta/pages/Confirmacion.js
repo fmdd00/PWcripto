@@ -1,6 +1,6 @@
 import Activa from "../components/Activa.Components"
 import Footer2 from "../components/Footer2.Components"
-
+import Link from 'next/link'
 export default function Confiracion(){
     return <div>
         <Activa />
@@ -31,8 +31,10 @@ export default function Confiracion(){
                     <input type="text" className="form-control" placeholder="XXXXXXXXXXXXXXXXX"/>
                 </div>
                 <div className="d-grid gap-2 mt-2">
-                    <a id="butLogin" className="btn btn-primary btn-5" type="button" href="/OperacionRealizadA">Siguiente</a>
-                </div>
+                <Link href="/OperacionRealizadA">
+        <a>Siguiente</a>
+      </Link>
+                       </div>
             </div>
             <Footer2 />
         </div>

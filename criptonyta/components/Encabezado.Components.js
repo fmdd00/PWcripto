@@ -1,13 +1,22 @@
+import Link from 'next/link'
 const Encabezado=()=>{
     return <ul className="nav nav-tabs nav justify-content-end">
       <li className="nav-item">
-      <a className="nav-link " href="/">Inicio</a>
+      <Link href="/">
+        <a className="nav-link ">Inicio</a>
+      </Link>
+      
     </li>
     <li className="nav-item">
-      <a className="nav-link " href="/Nosotros">Conocenos</a>
+    <Link href="/Nosotros">
+        <a className="nav-link ">Conocenos</a>
+      </Link>
+      
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="/VerTipoCambio">Opciones</a>
+    <Link href="/VerTipoCambio">
+        <a className="nav-link">Opciones</a>
+      </Link>
     </li>
     <li className="nav-item">
       <a className="nav-link active"  aria-current="page" href="#">Cuenta</a>
