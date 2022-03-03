@@ -20,9 +20,16 @@ const CuerpoVerTipoCambio = () => {
                 <h3>Tipo Cambio:</h3>
                 <form class="row g-3">
                     <div class="col-auto mt-4 CompraColor">
-                        <h5 className="img-thumbnail">Compra:  S/ 3.90</h5>
+                        <h5 className="img-thumbnail">1 BTC = S/. 162,915.38</h5>
                     </div>
                 </form>
+
+                <form class="row g-3">
+                    <div class="col-auto mt-4 CompraColor">
+                        <h5 className="img-thumbnail">S/.1.00 = 0.00000061 BTC</h5>
+                    </div>
+                </form>
+
                 <div className="d-grid gap-2">
                     <a type="button" className="btn btn-primary mt-4" href="/compraventa" >Comprar / Vender</a>
                 </div>
@@ -36,12 +43,7 @@ const CuerpoVerTipoCambio = () => {
                     <option value="1">BitCoins</option>
                     <option value="2">Soles</option>
                 </select>
-                <form className="row g-3">
-                    <div className="col-auto mt-4 ">
-                        <h5 className="ventaColor img-thumbnail">Venta:  S/ 3.71</h5>
-                    </div>
-
-                </form>
+                
 
                 <p className="mt-4 pensamiento"> En esta sección podrás cambiar de BitCoins a Soles y/o de Soles a BitCoins con un
                     sólo click.

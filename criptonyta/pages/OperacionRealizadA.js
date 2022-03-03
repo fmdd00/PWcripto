@@ -10,8 +10,8 @@ export default function EnviarVender() {
             <h4 className="mt-5">Número de Operación:</h4>
             <h1 className="mt-2">00000000111111222222222222</h1>
         </div>
-        <div className="text-center">
-            <a className="btn btn-primary" href="/VerTipoCambio">Regresar a Compra / Venta</a>
+        <div className="text-center mt-4">
+            <a type="button" className="btn btn-primary btn-lg" href="/VerTipoCambio">Regresar a Compra / Venta</a>
         </div>
         <div>
             <Footer4 />
