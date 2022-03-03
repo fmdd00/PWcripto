@@ -39,8 +39,8 @@ export default function MainPage() {
                             <div className="d-grid gap-2 mt-2">
                                 <a className="btn btn-primary" type="button" href="#">Calcular</a>
                                 <Link href="/SolicitarCompra">
-        <a>Solicitar</a>
-      </Link>
+                                    <a>Solicitar</a>
+                                </Link>
 
                             </div>
                         </form>
